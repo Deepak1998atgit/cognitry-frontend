@@ -1,4 +1,4 @@
-export const dynamic = 'force-static';
+export const dynamic = 'force-dynamic';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import WhatWeOffer from '@/components/WhatWeOffer';
 import WhyCognitry from '@/components/WhyCognitry';
