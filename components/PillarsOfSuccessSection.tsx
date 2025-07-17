@@ -56,7 +56,7 @@ export default function PillarsOfSuccessSection() {
             </div>
             {/* Content Section */}
             <div className="w-full text-white md:pl-44 bg-black h-full py-14 -mt-[5px]">
-                <header className="mb-12 ml-10 md:ml-0 ">
+                <header className="mb-12 ml-3 md:ml-0 ">
                     <h2
                         id="pillars-heading"
                         className={`${spaceGrotesk.className} md:w-1/2 leading-12 text-4xl mb-8`}
