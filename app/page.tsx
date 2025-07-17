@@ -12,7 +12,7 @@ const API_URL = process.env.NEXT_PUBLIC_API_URL as string;
 
 export async function generateMetadata() {
   const res = await fetch(`${API_URL}/api/homepage-seo`, {
-    cache: 'force-cache',
+    cache: 'no-cache',
   });
   const data = await res?.json();
   const seo = data?.data;
