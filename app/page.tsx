@@ -25,6 +25,14 @@ export async function generateMetadata() {
     openGraph: {
       title: seo?.Open_Graph_Title,
       description: seo?.Open_Graph_Description,
+      images: [
+        {
+          url:"/og_image.png",
+          width: 1200,
+          height: 630,
+          alt: 'OG Image',
+        },
+      ],
     },
   };
 }
