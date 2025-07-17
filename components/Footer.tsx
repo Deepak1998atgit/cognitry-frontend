@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import { HiChevronRight } from 'react-icons/hi';
 
 export default function Footer() {
     return (
@@ -13,7 +14,7 @@ export default function Footer() {
                         className="object-cover w-[158px] h-[72px] mb-4"
                         loading="lazy"
                     />
-                    <address className="not-italic  leading-relaxed space-y-2">
+                    <address className="not-italic  leading-relaxed space-y-5">
                         <p>
                             <strong>Location:</strong> <br />
                             United Kingdom, India, Dubai, Qatar
@@ -35,7 +36,7 @@ export default function Footer() {
 
                 {/* Site Navigation */}
                 <nav aria-label="Site Navigation">
-                    <ul className="space-y-2 text-sm">
+                    <ul className="space-y-5 text-sm mt-20 ">
                         <li>
                             <a href="/programs" className="hover:underline">
                                 Programs
@@ -53,23 +54,19 @@ export default function Footer() {
                         </li>
                         <li>
                             <a
-                                href="/get-started"
-                                className="mt-4 inline-flex items-center gap-2 px-4 py-2 bg-yellow-400 text-black text-sm font-medium rounded hover:bg-yellow-300 transition"
+                                href="#"
+                                className="flex  items-center justify-center border border-[#FFBF23] bg-[#FFBF23] w-[120px] text-black py-2 text-sm tracking-wider hover:bg-white transition"
+                                aria-label="Explore Cognitry Programs"
                             >
-                                Get Started
-                                <img
-                                    src="/icons/arrow-right.svg"
-                                    alt="Arrow icon"
-                                    className="w-4 h-4"
-                                />
+                                Get Started <HiChevronRight size={20} className="" />
                             </a>
                         </li>
                     </ul>
                 </nav>
 
                 {/* Quick Links & Social */}
-                <nav aria-label="Quick Links & Social">
-                    <ul className="space-y-2 text-sm">
+                <nav aria-label="Quick  Links & Social">
+                    <ul className="space-y-2 text-sm mt-20">
                         <li className="font-semibold">Quick Links</li>
                         <li>
                             <a href="/terms" className="hover:underline">
@@ -84,7 +81,7 @@ export default function Footer() {
                     </ul>
 
                     {/* Social Media */}
-                    <div className="mt-6">
+                    <div className="mt-12">
                         <p className="font-semibold mb-2 text-sm">Follow Us @</p>
                         <div className="flex items-center gap-4 mt-2">
                             <a
@@ -96,7 +93,7 @@ export default function Footer() {
                                 <img
                                     src="instagram.png"
                                     alt="Instagram"
-                                    className="w-5 h-5 opacity-70 hover:opacity-100 transition"
+                                    className="w-[30px] h-[30px] opacity-70 hover:opacity-100 transition"
                                 />
                             </a>
                             <a
@@ -108,7 +105,7 @@ export default function Footer() {
                                 <img
                                     src="/facebook.png"
                                     alt="Facebook"
-                                    className="w-5 h-5 opacity-70 hover:opacity-100 transition"
+                                    className="w-[30px] h-[30px] opacity-70 hover:opacity-100 transition"
                                 />
                             </a>
                             <a
@@ -120,7 +117,7 @@ export default function Footer() {
                                 <img
                                     src="/linkedin.png"
                                     alt="Linkedin"
-                                    className="w-5 h-5 opacity-70 hover:opacity-100 transition"
+                                    className="w-[30px] h-[30px] opacity-70 hover:opacity-100 transition"
                                 />
                             </a>
                             <a
@@ -132,7 +129,7 @@ export default function Footer() {
                                 <img
                                     src="/youtube.png"
                                     alt="YouTube"
-                                    className="w-5 h-5 opacity-70 hover:opacity-100 transition"
+                                    className="w-[30px] h-[30px] opacity-70 hover:opacity-100 transition"
                                 />
                             </a>
                         </div>
