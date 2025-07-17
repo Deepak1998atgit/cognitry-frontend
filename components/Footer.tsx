@@ -4,8 +4,8 @@ import { HiChevronRight } from 'react-icons/hi';
 
 export default function Footer() {
     return (
-        <footer className="bg-black text-white py-12 px-6 text-[16px] font-proxima">
-            <div className=" grid grid-cols-1 md:grid-cols-3 px-14 pt-10 lg:grid-cols-3 gap-5">
+        <footer className="bg-black text-white py-12 px-3  md:px-6 text-[16px] font-proxima">
+            <div className=" grid grid-cols-1 md:grid-cols-3 md:px-14 pt-10 lg:grid-cols-3 md:gap-5">
                 {/* Logo & Contact */}
                 <div>
                     <img
